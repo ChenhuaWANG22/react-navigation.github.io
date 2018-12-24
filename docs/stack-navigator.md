@@ -181,6 +181,8 @@ Customize the style for the container of the `headerRight` component, for exampl
 
 Customize the style for the container of the `headerTitle` component, for example to add padding.
 
+By default, `headerTitleContainerStyle` is with an absolute position style and preset offsets both left and right side. This may lead to white space or overlap between headerLeft and headerTitle component if a customized headerLeft is used. This can be solved by adjusting left and right style in `headerTitleContainerStyle`.
+
 #### `headerTintColor`
 
 Tint color for the header
